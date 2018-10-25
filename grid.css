@@ -90,27 +90,31 @@
 }
 
 .header1 {
-    grid-area: header1;
+    grid-column-start: header1;
+    grid-column-end: header2;
     text-decoration: none;
 }
 
 .header2 {
-    grid-area: header2;
+    grid-column-start: header2;
+    grid-column-end: header3;
     text-decoration: none;
 }
 
 .header3 {
-    grid-area: header3;
+    grid-column-start: header3;
+    grid-column-end: header4;
     text-decoration: none;
 }
 
 .social-media {
-    grid-area: socialmedia;
+    grid-column-start: socialmedia;
     text-decoration: none;
 }
 
 .search {
-    grid-area: search;
+    grid-column-start: search;
+    grid-column-end: socialMedia;
     text-decoration: none;
 }
 
