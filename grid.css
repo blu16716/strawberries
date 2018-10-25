@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+.wrapper{
+    display: inline-grid;
+    grid-template-columns: 200px, 200px, 200px;
+    
+}
