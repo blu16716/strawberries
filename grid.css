@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 body {
     margin: 0;
@@ -53,7 +53,7 @@ nav {
 .wrapper {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(13, 1fr);
 
 }
 
@@ -97,6 +97,41 @@ nav {
     grid-column-end: 7;
     grid-row-start: 6;
     grid-row-end: 7;
+
+}
+
+.e {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 12;
+    background-image: url("https://puu.sh/BStTT/b94014783e.JPG");
+    background-position: center;
+    background-size: contain;
+
+
+}
+
+.f {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 12;
+    grid-row-end: 13;
+}
+
+.g {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 8;
+    grid-row-end: 12;
+
+}
+
+.h {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 12;
+    grid-row-end: 13;
 
 }
 
