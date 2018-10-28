@@ -1,12 +1,8 @@
-<<<<<<< HEAD
+
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 body {
   margin: 0;
 }
-=======
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
-
->>>>>>> fbd305779c42e08d5a91af593491904c7da9437a
 
 nav {
   display: grid;
@@ -31,7 +27,7 @@ nav {
 .logo {
   grid-column-start: 3;
   grid-column-end: 5;
-  background-image: url("/Users/makennawalsh/Documents/GitHub/strawberries/images/mkfresaslogo.png");
+    background-image: url("https://puu.sh/BSsfJ/98074e9bac.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -76,12 +72,14 @@ nav {
         grid-row-end: 6;
 
     }
+
     .b {
         grid-column-start: 2;
         grid-column-end: 4;
         grid-row-start: 6;
         grid-row-end: 7;
     }
+
     .c {
         grid-column-start: 5;
         grid-column-end: 7;
@@ -89,6 +87,7 @@ nav {
         grid-row-end: 6;
 
     }
+
     .d {
         grid-column-start: 5;
         grid-column-end: 7;
@@ -99,8 +98,4 @@ nav {
 
 #twist {
   color: blue;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> fbd305779c42e08d5a91af593491904c7da9437a
