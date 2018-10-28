@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="grid.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slickanimation.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="M&K Fresas Website">
   <title>M&KFresas</title>
@@ -29,10 +31,19 @@
 </header>
 
 <body>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
 
   <div class="wrapper">
-    <div class="box a">A</div>
-    <div class="box b">halloween</div>
+    <div class = "slider">
+      <div class="box a">Slide 1</div>
+      <script type="text/javascript">
+        $('.single-item').slick();
+      </script>
+    </div>
+    <div class="box b">Thank You!</div>
     <div class="box c">C</div>
     <div class="box d">christmas</div>
   </div>

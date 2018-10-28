@@ -1,0 +1,17 @@
+html,
+body {
+  background: #ffffff;
+}
+.slider {
+  text-align: center;
+  padding: 0px;
+  color: white;
+  
+}
+.slider .parent-slide {
+  padding: 0px;
+}
+.slider img {
+  display: block;
+  margin: auto;
+}
