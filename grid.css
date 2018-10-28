@@ -36,7 +36,7 @@ nav {
 
 .navLinks {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 1.2em;
+  font-size: .7em;
   text-transform: uppercase;
   text-decoration: none;
   color: black;
@@ -88,7 +88,7 @@ nav {
 
   .navLinks {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
     text-transform: uppercase;
     text-decoration: none;
     color: black;
