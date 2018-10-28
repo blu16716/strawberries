@@ -11,7 +11,7 @@ nav {
   align-items: center;
   text-align: center;
   border-bottom: 4px solid black;
-  background: green;
+  background: white;
 }
 
 @media screen and (max-width: 900px) {
