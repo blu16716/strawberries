@@ -10,10 +10,32 @@ nav {
     border: 4px solid black;
     background: green;
   }
-  @media screen and (max-width: 900px) {
-    nav {
-      grid-template-columns: 100%;
-      grid-template-rows: auto;
-      grid-gap: 1em;
-   }
-  } 
+
+  
+  .logo {
+    grid-column: 3;
+    background-image: url("https://blog.codepen.io/wp-content/uploads/2012/06/Black-Large.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 10vh;
+  }
+
+  .navLinks {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navLinks:hover {
+    color: white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 1em 1em;
+  }
+  
+  #twist {
+    color: blue;
+  }
