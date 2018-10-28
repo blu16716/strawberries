@@ -37,8 +37,7 @@ nav {
 
 .navLinks {
     font-family: 'Pacifico', sans-serif;
-    font-size: .9em;
-    text-transform: uppercase;
+    font-size: 1em;
     text-decoration: none;
     color: black;
 }
@@ -48,6 +47,24 @@ nav {
     border-left: 1px solid white;
     border-right: 1px solid white;
     padding: 1em 1em;
+}
+
+.boxLinks{
+    font-family: 'Pacifico', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.boxLinks:hover {
+    color: gray;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 1em 1em;
+}
+
+.boxLinks:visited{
+    text-decoration: none;
+    color: blue;
 }
 
 .wrapper {
@@ -78,10 +95,15 @@ nav {
 }
 
 .b {
+    align-items: center;
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;    
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 6;
     grid-row-end: 7;
+    
 }
 
 .c {
@@ -89,10 +111,17 @@ nav {
     grid-column-end: 7;
     grid-row-start: 2;
     grid-row-end: 6;
+    background-image: url("https://puu.sh/BSvkA/69a4d7d251.JPG");
+    background-position: center;
+    background-size: contain;
 
 }
 
 .d {
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
     grid-column-start: 5;
     grid-column-end: 7;
     grid-row-start: 6;
@@ -105,7 +134,7 @@ nav {
     grid-column-end: 4;
     grid-row-start: 8;
     grid-row-end: 12;
-    background-image: url("https://puu.sh/BStTT/b94014783e.JPG");
+    background-image: url("https://puu.sh/BSw4b/d8cc5048ef.JPG");
     background-position: center;
     background-size: contain;
 
@@ -113,6 +142,10 @@ nav {
 }
 
 .f {
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 12;
@@ -124,10 +157,17 @@ nav {
     grid-column-end: 7;
     grid-row-start: 8;
     grid-row-end: 12;
+    background-image: url("https://puu.sh/BSw5S/83fc5c150d.JPG");
+    background-position: center;
+    background-size: contain;
 
 }
 
 .h {
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
     grid-column-start: 5;
     grid-column-end: 7;
     grid-row-start: 12;
