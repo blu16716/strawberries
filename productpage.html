@@ -2,10 +2,11 @@
 <html>
 
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="YOUR_API_KEY" id="snipcart"></script> 
+  <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="grid.css">
-  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="slickanimation.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="M&K Fresas Website">
   <title>M&KFresas</title>
@@ -24,25 +25,93 @@
     <div class="3">
       <a href="#" class="navLinks">Contact Us</a>
     </div>
-    <div class="4">
-      <a href="https://www.instagram.com/mkfresas/" class="navLinks">Instagram</a>
+
+    <div id="cart-info" class="cart-info">
+      <span class="cart-info_icon mr-lg-3"><i class="fas fa-shopping-cart"></i></span>
+      <p class="butoon-styling">Cart</p>
     </div>
+
+
   </nav>
+
+  <div id="cart" class="cart">
+    <!-- cart item -->
+
+    
+    <div class="cart-item d-flex justify-content-between">
+      <div class="item-text">
+        <p id="cart-item-title" class="font-weight-bold">cart item</p>
+        <span>$</span>
+        <span id="cart-item-price" class="cart-item-price">10.99</span>
+      </div>
+      <button id='cart-item-remove' class="cart-item-remove">remove</button>
+    </div>
+
+    <div class="cart-item d-flex justify-content-between">
+  
+      <div class="cart-item-text">
+
+        <p id="cart-item-title justify-content-between" >cart item</p>
+        <span>$</span>
+        <span id="cart-item-price" class="cart-item-price" class="mb-0">10.99</span>
+      </div>
+      <a href="#" id='cart-item-remove' class="cart-item-remove">
+        <i class="fas fa-trash"></i>
+      </a>
+    </div>
+
+    <div class="cart-total-container justify-content-around">
+      <h5>total</h5>
+      <h5>$ <strong id="cart-total" class="font-weight-bold">10.00</strong> </h5>
+    </div>
+    <!--end cart total -->
+
+    <!-- cart buttons -->
+    <div class="cart-buttons-container d-flex justify-content-between">
+      <a href="#" id="clear-cart" class="btn">clear cart</a>
+      <a href="#" class="btn">checkout</a>
+    </div>
+
+
+
 </header>
 
 <body>
   <div class="wrapper">
-    <div class="box a" ></div>
-    <div class="box b" >product 1</div>
-    <div class="box c">C</div>
-    <div class="box d">product 2</div>
-    <div class="box e" ></div>
-    <div class="box f" >product 3</div>
+    <div class="box a" class="img-container"> </div>
+    <div class="box b" class = "store-item"> Product 1
+        <button id="addTo">add to cart</button>
+        <i class="fas fa-shopping-cart"></i>
+        <h5 class="store-item-value">$ <strong id="store-item-price">5</strong></h5>
+    </div>
+    <div class="box c" class="img-container"></div>
+    <div class="box d" class = "store-item">product 2
+        <button id="addTo">add to cart</button>
+        <i class="fas fa-shopping-cart"></i>
+        <h5 class="store-item-value">$ <strong id="store-item-price">5</strong></h5>
+    </div>
+
+    <div class="box e" class="img-container" >
+    </div>
+    <div class="box f" class = "store-item">product 3
+        <button id="addTo">add to cart</button>
+        <i class="fas fa-shopping-cart"></i>
+        <h5 class="store-item-value">$ <strong id="store-item-price">5</strong></h5>
+        </div>
+
+
     <div class="box g">g</div>
-    <div class="box h">product 4</div>
+    <div class="box h" class = "store-item" >product 4
+        <button id="addTo">add to cart</button>
+        <i class="fas fa-shopping-cart"></i>
+        <h5 class="store-item-value">$<strong id="store-item-price">5</strong></h5>
+    </div>
+
   </div>
 
 
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="cart.js"></script>
 </body>
 
 </html>
