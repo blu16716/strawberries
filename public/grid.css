@@ -49,7 +49,7 @@ nav {
     padding: 1em 1em;
 }
 
-.boxLinks{
+.boxLinks {
     font-family: 'Pacifico', sans-serif;
     text-decoration: none;
     color: black;
@@ -62,7 +62,7 @@ nav {
     padding: 1em 1em;
 }
 
-.boxLinks:visited{
+.boxLinks:visited {
     text-decoration: none;
     color: blue;
 }
@@ -79,7 +79,6 @@ nav {
     color: black;
     padding: 20px;
     font-size: 150%;
-    border: 1px solid black;
 }
 
 .a {
@@ -90,20 +89,18 @@ nav {
     background-image: url("https://puu.sh/BStTT/b94014783e.JPG");
     background-position: center;
     background-size: contain;
-
-
 }
 
 .b {
     align-items: center;
     text-align: center;
     font-size: 1.2em;
-    text-decoration: none;    
+    text-decoration: none;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 6;
     grid-row-end: 7;
-    
+
 }
 
 .c {
@@ -175,27 +172,27 @@ nav {
 
 }
 
-#twist {
-    color: blue;
-}
-
 
 /* cart styling */
 .cart-info {
     border: 0.1rem solid black;
     color: black;
     border-radius: 0.25rem;
-    padding: 0.4rem 0.6rem;
+    padding: 5px 6px;
     cursor: pointer;
+    margin: 10px;
+    grid-column: 7;
+    grid-row: 1;
+
   }
   .cart-info:hover {
-    background: pink;
-    border-color: pink;
+    background: black;
+    border-color:black;
     color: white;
-  }
+}
 
   .cart {
-      border: 2px solid black;
+    border: 2px solid black;
     position: absolute;
     min-height: 10rem;
     background: white;
@@ -204,12 +201,14 @@ nav {
     transition: all 0.3s ease-in-out;
     width: 0;
     overflow: hidden;
-  }
-  .show-cart {
+}
+
+.show-cart {
     width: 18rem;
     padding: 2rem 1.5rem;
     transform: rotateY(-360deg);
   }
+
   .cart-item {
     transition: all 2s ease-in-out;
   }
@@ -217,34 +216,21 @@ nav {
   /* end of cart */
   /* cart item */
   .cart-item-remove {
-    color: pink;
+    color:black;
     transition: all 1s ease-in-out;
+
   }
   .cart-item-remove:hover {
     transform: scale(1.1);
     color: black;
-  }
-  #cart-item-price {
+}
+
+#cart-item-price {
     font-size: 0.8rem;
   }
   /* cart item */
   /* cart buttons */
-  .btn-pink {
-    color: pink !important;
-    border-color: pink !important;
-  }
-  .btn-black {
-    color: black !important;
-    border-color: black !important;
-  }
-  .btn-black:hover {
-    color: pink !important;
-    background: pink !important;
-  }
-  .btn-pink:hover {
-    background: pink !important;
-    color: pink !important;
-  }
+
 
   button {
       grid-column: 4;
