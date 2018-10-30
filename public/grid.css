@@ -81,6 +81,15 @@ nav {
     font-size: 150%;
 }
 
+.instagram-logo{
+    grid-column-start: 6;
+    background-image: url("https://puu.sh/BTBdu/e8cdc4ac57.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 4vh;
+}
+
 .a {
     grid-column-start: 2;
     grid-column-end: 4;
