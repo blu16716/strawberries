@@ -15,7 +15,7 @@
 <header>
   <nav class="container">
     <div class="1">
-      <a href="#" class="navLinks">Home</a>
+      <a href="homepage.html" class="navLinks">Home</a>
     </div>
     <div class="2">
       <a href="#" class="navLinks">About Me</a>
@@ -23,13 +23,11 @@
     <div class="logo">
     </div>
     <div class="3">
-      <a href="#" class="navLinks">Contact Us</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScOUdVlYH8snxrEcMaRF0-iCewVIguQXpGAKcR6LD9vGxumrw/viewform?usp=sf_link" class="navLinks">Contact Us</a>
     </div>
-
-    <div id="cart-info" class="cart-info">
-      <span class="cart-info_icon mr-lg-3"><i class="fas fa-shopping-cart"></i></span>
-      <p class="butoon-styling">Cart</p>
-    </div>
+    <div class="4">
+        <a href="https://www.instagram.com/mkfresas/" class="navLinks">Instagram</a>
+      </div>
 
 
   </nav>
@@ -37,10 +35,10 @@
   <div id="cart" class="cart">
     <!-- cart item -->
 
-    
     <div class="cart-item d-flex justify-content-between">
+        <button id='cart-exit' class="cart-exit">exit</button>
       <div class="item-text">
-        <p id="cart-item-title" class="font-weight-bold">cart item</p>
+        <p id="cart-item-title">cart item</p>
         <span>$</span>
         <span id="cart-item-price" class="cart-item-price">10.99</span>
       </div>
@@ -55,8 +53,7 @@
         <span>$</span>
         <span id="cart-item-price" class="cart-item-price" class="mb-0">10.99</span>
       </div>
-      <a href="#" id='cart-item-remove' class="cart-item-remove">
-        <i class="fas fa-trash"></i>
+      <button id='cart-item-remove' class="cart-item-remove">remove</button>
       </a>
     </div>
 
@@ -68,8 +65,8 @@
 
     <!-- cart buttons -->
     <div class="cart-buttons-container d-flex justify-content-between">
-      <a href="#" id="clear-cart" class="btn">clear cart</a>
-      <a href="#" class="btn">checkout</a>
+      <button id="clear-cart" class="btn">clear cart</button>
+      <button class="btn">checkout</button>
     </div>
 
 
@@ -78,6 +75,10 @@
 
 <body>
   <div class="wrapper">
+      <div id="cart-info" class="cart-info">
+          <span class="cart-info_icon mr-lg-3"><i class="fas fa-shopping-cart"></i></span>
+          <p class="button-styling">Cart</p>
+      </div>
     <div class="box a" class="img-container"> </div>
     <div class="box b" class = "store-item"> Product 1
         <button id="addTo">add to cart</button>

@@ -10,6 +10,16 @@
     });
 })();
 
+(function() {
+
+    const cartExit = document.getElementById("cart-exit");
+    const cart = document.getElementById("cart");
+
+    cartExit.addEventListener("click", function() {
+        cart.classList.toggle("show-cart");
+    });
+})();
+
 //add items to the cart
 
 (function() {
