@@ -17,8 +17,10 @@
   "storage": {
     "rules": "storage.rules"
   },
-  "rerwites": {
+  "rerwites": [
+    {
     "source": "**",
-    "destination": "/index.html"
+    "destination": "/homepage.html"
   }
+]
 }

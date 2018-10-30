@@ -6,6 +6,8 @@
   <link rel="stylesheet" type="text/css" href="grid.css">
   <link rel="stylesheet" type="text/css" href="slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="slickanimation.css">
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-auth.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="M&K Fresas Website">
@@ -54,6 +56,20 @@
 
 </body>
 
+    <button onclick="mainApp.logout();">logout</button>
+
+    <button onclick="loginButtonFunction()">login</button>
+
+
 <a href="cart.html">Cart link</a>
+
+<script src="fireBase.js"></script>
+<script src="main.js"></script>
+
+<script>
+function loginButtonFunction(login, login) {
+  var myWindow = window.open("login.html","login", "width=500,height=300")
+}
+</script>
 
 </html>
