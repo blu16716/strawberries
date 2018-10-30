@@ -15,13 +15,12 @@
     ],
     "rewrites": [
       {
-      "source": "**",
-      "destination": "/homepage.html"
-    }
-  ]
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   },
   "storage": {
     "rules": "storage.rules"
   }
-  
 }
