@@ -185,17 +185,20 @@ nav {
     border: 0.1rem solid black;
     color: black;
     border-radius: 0.25rem;
-    padding: 0.4rem 0.6rem;
+    padding: 5px 6px;
     cursor: pointer;
-}
+    margin: 10px;
+    grid-column: 7;
+    grid-row: 1;
 
-.cart-info:hover {
-    background: pink;
-    border-color: pink;
+  }
+  .cart-info:hover {
+    background: black;
+    border-color:black;
     color: white;
 }
 
-.cart {
+  .cart {
     border: 2px solid black;
     position: absolute;
     min-height: 10rem;
@@ -211,56 +214,37 @@ nav {
     width: 18rem;
     padding: 2rem 1.5rem;
     transform: rotateY(-360deg);
-}
+  }
 
-.cart-item {
+  .cart-item {
     transition: all 2s ease-in-out;
-}
-
-/* end of cart */
-/* cart item */
-.cart-item-remove {
-    color: pink;
+  }
+  
+  /* end of cart */
+  /* cart item */
+  .cart-item-remove {
+    color:black;
     transition: all 1s ease-in-out;
-}
 
-.cart-item-remove:hover {
+  }
+  .cart-item-remove:hover {
     transform: scale(1.1);
     color: black;
 }
 
 #cart-item-price {
     font-size: 0.8rem;
-}
+  }
+  /* cart item */
+  /* cart buttons */
 
-/* cart item */
-/* cart buttons */
-.btn-pink {
-    color: pink !important;
-    border-color: pink !important;
-}
 
-.btn-black {
-    color: black !important;
-    border-color: black !important;
-}
-
-.btn-black:hover {
-    color: pink !important;
-    background: pink !important;
-}
-
-.btn-pink:hover {
-    background: pink !important;
-    color: pink !important;
-}
-
-button {
-    grid-column: 4;
-    width: 30%;
-    height: auto;
-    float: right;
-    border-radius: 0%;
-    border-color: black;
-    background-color: white;
-}
+  button {
+      grid-column: 4;
+      width: 30%;
+      height: auto;
+      float: right;
+      border-radius: 0%;
+      border-color: black;
+      background-color: white;
+  }
