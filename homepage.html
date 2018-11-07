@@ -6,9 +6,12 @@
   <link rel="stylesheet" type="text/css" href="grid.css">
   <link rel="stylesheet" type="text/css" href="slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="slickanimation.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/javascript" href="text-animation.js"/>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="M&K Fresas Website">
+
   <title>M&KFresas</title>
 </head>
 
@@ -37,23 +40,42 @@
 </header>
 
 <body>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
   <div class="wrapper">
-    <div class="box a"></div>
-    <div class="box b boxLinks">
-      <a href="productpage.html">Thank you!</a>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.your-class').slick({
+          setting-name: setting-value
+        });
+      });
+      
+    <div class="box a gallery-list"></div>
+
+    <div class="box thank-you-text boxLinks">
+      <a href="productpage.html" >Thank you!</a>
     </div>
+
     <div class="box c"></div>
-    <div class="box d boxLinks">
+
+    <div class="box christmas-text boxLinks">
       <a href="productpage.html">Christmas!</a>
     </div>
+    
     <div class="box e"></div>
-    <div class="box f boxLinks">
+
+    <div class="box happy-birthday-text boxLinks">
       <a href="productpage.html">Happy Birthday!</a>
     </div>
+
     <div class="box g"></div>
-    <div class="box h boxLinks">
+
+    <div class="box custom-text boxLinks">
       <a href="productpage.html">Custom!</a>
     </div>
+
   </div>
 
 
