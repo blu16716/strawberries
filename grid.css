@@ -95,10 +95,6 @@ nav {
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 6;
-    background-image: url("https://puu.sh/BStTT/b94014783e.JPG");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .thank-you-text {
