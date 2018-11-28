@@ -269,6 +269,41 @@ nav {
     text-decoration: none !important;
     color: #000 !important;
 }
+footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1em;
+    align-items: center;
+    text-align: center;
+    border-bottom: 4px solid black;
+    background: white;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    opacity: .2;
+    color: white;
+    text-align: center;
+}
+
+.footerLinks {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.footerLinks:hover {
+    color: gray;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 1em 1em;
+}
+
 
 /* cart styling */
 .cart-info {
