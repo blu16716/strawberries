@@ -94,7 +94,7 @@ nav {
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 2;
-    grid-row-end: 6;
+    grid-row-end: 4;
     background-image: url("https://puu.sh/BStTT/b94014783e.JPG");
     background-position: center;
     background-size: contain;
@@ -109,36 +109,17 @@ nav {
     color: black;
     grid-column-start: 2;
     grid-column-end: 4;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
 
 }
 
-.thank-you-text a:visited {
-    text-decoration: none !important;
-    color: #000;
-}
-
-.thank-you-text a:focus {
-    text-decoration: none !important;
-    color: #000;
-}
-
-.thank-you-text a:hover {
-    text-decoration: none !important;
-    color: #000;
-}
-
-.thank-you-text a:active {
-    text-decoration: none !important;
-    color: #000;
-}
 
 .c {
     grid-column-start: 5;
     grid-column-end: 7;
     grid-row-start: 2;
-    grid-row-end: 6;
+    grid-row-end: 4;
     background-image: url("https://puu.sh/BSvkA/69a4d7d251.JPG");
     background-position: center;
     background-size: contain;
@@ -146,39 +127,24 @@ nav {
 
 }
 
-.christmas-text {
+.d {
     align-items: center;
     text-align: center;
     text-decoration: none;
     font-size: 1.2em;
     grid-column-start: 5;
     grid-column-end: 7;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
 
 }
 
-.christmas-text a:visited {
-    text-decoration: none;
-    color: #000 !important;
-}
-
-.christmas-text a:focus {
-    text-decoration: none;
-    color: #000 !important;
-}
-
-.christmas-text a:hover
-.christmas-text a:active {
-    text-decoration: none;
-    color: #000 !important;
-}
 
 .e {
     grid-column-start: 2;
     grid-column-end: 4;
-    grid-row-start: 8;
-    grid-row-end: 12;
+    grid-row-start: 6;
+    grid-row-end: 8;
     background-image: url("https://puu.sh/BSw4b/d8cc5048ef.JPG");
     background-position: center;
     background-repeat: no-repeat;
@@ -187,88 +153,43 @@ nav {
 
 }
 
-.happy-birthday-text {
+.f {
     align-items: center;
     text-align: center;
     text-decoration: none;
     font-size: 1.2em;
     grid-column-start: 2;
     grid-column-end: 4;
-    grid-row-start: 12;
-    grid-row-end: 13;
+    grid-row-start: 8;
+    grid-row-end: 9;
 }
 
-.happy-birthday-text a:visited {
-    text-decoration: none;
-    color: #000 !important;
-}
-
-.happy-birthday-text a:focus {
-    text-decoration: none;
-    color: #000 !important;
-}
-
-.happy-birthday-text a:hover
-.happy-birthday-text a:active {
-    text-decoration: none;
-    color: #000 !important;
-}
 
 .g {
     background-repeat: no-repeat;
     grid-column-start: 5;
     grid-column-end: 7;
-    grid-row-start: 8;
-    grid-row-end: 12;
+    grid-row-start: 6;
+    grid-row-end: 8;
     background-image: url("https://puu.sh/BSw5S/83fc5c150d.JPG");
     background-position: center;
     background-size: contain;
 
 }
 
-.custom-text {
+.h {
     align-items: center;
     text-align: center;
     text-decoration: none;
     font-size: 1.2em;
     grid-column-start: 5;
     grid-column-end: 7;
-    grid-row-start: 12;
-    grid-row-end: 13;
+    grid-row-start: 8;
+    grid-row-end: 9;
 
 }
 
-.custom-text a:visited {
-    text-decoration: none;
-    color: #000 !important;
-}
-.custom-text a:focus {
-    text-decoration: none;
-    color: #000 !important;
-}
 
-.custom-text a:hover,
-.custom-text a:active {
-    text-decoration: none;
-    color: #000 !important;
-}
-
-.box.thank-you-text.boxLinks a {
-    text-decoration: none !important;
-    color: #000 !important;
-}
-.box.christmas-text.boxLinks a {
-    text-decoration: none !important;
-    color: #000 !important;
-}
-.box.happy-birthday-text.boxLinks a {
-    text-decoration: none !important;
-    color: #000 !important;
-}
-.box.custom-text.boxLinks a {
-    text-decoration: none !important;
-    color: #000 !important;
-}
 footer {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
