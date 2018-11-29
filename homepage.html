@@ -4,10 +4,8 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="grid.css">
-  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-  <link rel="stylesheet" type="text/css" href="slickanimation.css">
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-  <link rel="stylesheet" type="text/javascript" href="text-animation.js"/>
+  <link rel="stylesheet" type="text/css" href="slideshow.css">
+  <link rel="stylesheet" type="text/javascript" href="slideshow.js"/>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="M&K Fresas Website">
@@ -43,8 +41,21 @@
 
   <div class="wrapper">
 
-
-    <div class="box a gallery-list"></div>
+<!--box a-->
+<div class = "slideshow-container">
+    <div class="box a mySlides fade">
+     <img src="https://puu.sh/BStTT/b94014783e.JPG" style = "width:100%" >
+    </div>
+    <div class="box a mySlides fade">
+      <img src="https://puu.sh/C9iGK/4538578f72.jpg" style = "width:100%" >
+     </div>
+     <div class="box a mySlides fade">
+      <img src="https://puu.sh/BStTT/b94014783e.JPG" style = "width:100%" >
+     </div>
+     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+  
 
     <div class="box thank-you-text boxLinks">
       <a href="productpage.html" >Thank you!</a>
@@ -67,6 +78,7 @@
     <div class="box custom-text boxLinks">
       <a href="productpage.html">Custom!</a>
     </div>
+  </div>
 
     <footer class = "footer">
       <div class = "1 footerLinks" >test</div>
