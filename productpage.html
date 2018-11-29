@@ -10,8 +10,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="M&K Fresas Website">
   <title>M&KFresas</title>
+  
 </head>
 
+
+
+<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MTE5YTI4ZjUtMmM3My00YTEwLWJlMmEtMzhiMzI4ZjlhMjdlNjM2NzYzNjE5MzE4NzQ5NzI2"></script>
+
+<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="cart.js"></script>
 <header>
   <nav class="container">
     <div class="1">
@@ -33,15 +41,17 @@
 
   </nav>
 
+  <!--
   <div id="cart" class="cart">
-    <!-- cart item -->
+    
+    cart item 
 
     <div class="cart-item d-flex justify-content-between">
       <button id='cart-exit' class="cart-exit">exit</button>
       <div class="item-text">
         <p id="cart-item-title">cart item</p>
         <span>$</span>
-        <span id="cart-item-price" class="cart-item-price">10.99</span>
+        <span id="cart-item-price" class="cart-item-price">12</span>
       </div>
       <button id='cart-item-remove' class="cart-item-remove">remove</button>
     </div>
@@ -62,58 +72,58 @@
       <h5>total</h5>
       <h5>$ <strong id="cart-total" class="font-weight-bold">10.00</strong> </h5>
     </div>
-    <!--end cart total -->
+    <!--end cart total
 
-    <!-- cart buttons -->
+    <!-- cart buttons 
     <div class="cart-buttons-container d-flex justify-content-between">
       <button id="clear-cart" class="btn">clear cart</button>
       <button class="btn">checkout</button>
     </div>
-
+   -->
 
 
 </header>
 
 <body>
-  <div class="wrapper">
-    <div id="cart-info" class="cart-info">
-      <span class="cart-info_icon mr-lg-3"><i class="fas fa-shopping-cart"></i></span>
-      <p class="button-styling">Cart</p>
+  <div class="box a"></div>
+    <div class="box b shop-item-title shop-item store-item">product 1
+      <button id="addTo" class = "btn btn-primary shop-item-button" data-name = "product1" type = "button" data-price = "12">add to cart</button>
+      <h5 class="store-item-value shop-item-price  store-item-price">$12</h5>
     </div>
-    <div class="box a" class="img-container"> </div>
-    <div class="box b" class="store-item"> Product 1
-      <button id="addTo">add to cart</button>
-      <i class="fas fa-shopping-cart"></i>
-      <h5 class="store-item-value">$ <strong id="store-item-price">5</strong></h5>
-    </div>
-    <div class="box c" class="img-container"></div>
-    <div class="box d" class="store-item">product 2
-      <button id="addTo">add to cart</button>
-      <i class="fas fa-shopping-cart"></i>
-      <h5 class="store-item-value">$ <strong id="store-item-price">5</strong></h5>
+
+    <div class="box c"></div>
+    <div class="box d shop-item-title shop-item store-item" >product 2
+      <button id="addTo" class = "btn btn-primary shop-item-button" data-name = "product2" type = "button" data-price = "12">add to cart</button>
+      <h5 class="store-item-value shop-item-price  store-item-price">$12</h5>
     </div>
 
     <div class="box e" class="img-container">
     </div>
-    <div class="box f" class="store-item">product 3
-      <button id="addTo">add to cart</button>
-      <i class="fas fa-shopping-cart"></i>
-      <h5 class="store-item-value">$ <strong id="store-item-price">5</strong></h5>
+    <div class="box f shop-item-title shop-item store-item" >product 3
+      <button id="addTo" class = "btn btn-primary shop-item-button" type = "button" data-price = "12" data-name = "product3">add to cart</button>
+      <h5 class="store-item-value shop-item-price" >$12</h5>
     </div>
 
 
     <div class="box g"></div>
-    <div class="box h" class="store-item">product 4
-      <button id="addTo">add to cart</button>
-      <i class="fas fa-shopping-cart"></i>
-      <h5 class="store-item-value">$<strong id="store-item-price">5</strong></h5>
+    <div>
+    <div class="box h shop-item-title shop-item store-item" >product 4</div>
+      <!-- <button id="addTo" class = "btn btn-primary shop-item-button" type = "button" data-price = "12" data-name = "product4>add to cart</button> -->
+    <button
+      class="snipcart-add-item"
+      data-item-id="2"
+      data-item-name="product1"
+      data-item-price="12.00"
+      data-item-weight="0"
+      data-item-url="/"
+      data-item-description="Strawberries">
+          add to cart1
+     </button>
+      <h5 class="store-item-value shop-item-price  store-item-price">$12</h5>
     </div>
 
   </div>
 
-
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="cart.js"></script>
 </body>
 
 </html>
