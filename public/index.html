@@ -1,65 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/5.6.0/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/5.6.0/firebase-auth.js"></script>
-    <script defer src="/__/firebase/5.6.0/firebase-database.js"></script>
-    <script defer src="/__/firebase/5.6.0/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/5.6.0/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="grid.css">
+  <link rel="stylesheet" type="text/css" href="slideshow.css">
+  <link rel="stylesheet" type="text/javascript" href="slideshow.js"/>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="M&K Fresas Website">
+
+  <title>M&KFresas</title>
+</head>
+
+<header>
+  <nav class="container">
+    <div class="1">
+      <a href="homepage.html" class="navLinks">Home</a>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+    <div class="2">
+      <a href="#" class="navLinks">About Us</a>
+    </div>
+    <a href="homepage.html" <img class="logo" src="https://puu.sh/BSsfJ/98074e9bac.png">
+    </a>
+    </div>
+    <div class="3">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScOUdVlYH8snxrEcMaRF0-iCewVIguQXpGAKcR6LD9vGxumrw/viewform?usp=sf_link"
+        class="navLinks">Contact Us</a>
+    </div>
+    <div class="4">
+      <a href="https://wwww.instagram.com/mkfresas/" class="navLinks" <img class="instagram-logo" src="https://puu.sh/BTBdu/e8cdc4ac57.png">
+      </a>
+      <div class="instagram-logo">
+      </div>
+    </div>
+  </nav>
+</header>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+<body>
 
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+<div class="wrapper">
+
+<!--box a-->
+  <div class = "box a">
+
+    <div class="mySlides fade">
+     <img src="https://puu.sh/BStTT/b94014783e.JPG" style = "width:100%" >
+    </div>
+    <div class="mySlides fade">
+        <img src="https://puu.sh/C9iGK/4538578f72.jpg" style = "width:100%" >
+    </div>
+    <a class ="prev a" onclick="plusSlides(-1)">&#10094;</a>
+    <a class ="next a" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+   
+    
+
+    <!--
+    <div class="box c mySlides fade">
+      <img src="https://puu.sh/C9iGK/4538578f72.jpg" style = "width:100%" >
+     </div>
+     <div class="box e mySlides fade">
+      <img src="https://puu.sh/BStTT/b94014783e.JPG" style = "width:100%" >
+     </div>
+     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div class="box thank-you-text boxLinks">
+      <a href="productpage.html" >Thank you!</a>
+    </div>
+backup
+    <div class="box c"></div>
+
+    <div class="box christmas-text boxLinks">
+      <a href="productpage.html">Christmas!</a>
+    </div>
+    
+    <div class="box e"></div>
+
+    <div class="box happy-birthday-text boxLinks">
+      <a href="productpage.html">Happy Birthday!</a>
+    </div>
+
+    <div class="box g"></div>
+
+    <div class="box custom-text boxLinks">
+      <a href="productpage.html">Custom!</a>
+    </div>
+  </div>
+-->
+    <footer class = "footer">
+      <div class = "1 footerLinks" >test</div>
+    </footer>
+
+  </div>
+
+
+</body>
+
+
 </html>
