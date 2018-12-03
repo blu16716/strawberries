@@ -81,6 +81,11 @@ nav {
 
 .instagram-logo {
     grid-column-start: 6;
+    
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-decoration:none;
     height: 4vh;
 }
 
