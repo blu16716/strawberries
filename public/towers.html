@@ -14,8 +14,6 @@
     <script src="cart.js"></script>
     <title>M&KFresas</title>
 
-
-
 </head>
 
 
@@ -38,30 +36,47 @@
         </div>
         <div class="4">
             <a class="navLinks instagram-logo" href="https://www.instagram.com/mkfresas/" target="_blank">
-                <img class= "instagram-logo" src="https://puu.sh/BTBdu/e8cdc4ac57.png">
+                <img class="instagram-logo" src="https://puu.sh/BTBdu/e8cdc4ac57.png">
             </a>
 
         </div>
         <div class="5">
             <img href="#" class="navLinks snipcart-checkout" src="https://img.icons8.com/windows/50/000000/shopping-cart.png">
         </div>
+        <script>
+            window.onscroll = function () {
+                myFunction()
+            };
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
     </nav>
 </header>
 
 
 <body>
     <div class="wrapper">
-
         <div class="card a">
             <img src="https://puu.sh/BSvkA/69a4d7d251.JPG" style="width:100%">
-            <h1>Product 1</h1>
+            <h1>Holidays</h1>
             <p class="price">$12</p>
-            <p>Strawberries are cool</p>
+            <p>'Tis the season!</p>
             <p><button class="snipcart-add-item" data-item-id="1" data-item-name="product1" data-item-price="12.00"
-                    data-item-weight="0" data-item-url="/" data-item-description="Strawberries">
+                    data-item-weight="0" data-item-url="/" data-item-description="Strawberries" data-item-custom1-name="Special Requests"
+                    data-item-custom1-type="textarea">
                     Add to Cart
                 </button></p>
         </div>
+
 
         <div class="card c">
             <img src="https://puu.sh/BSvkA/69a4d7d251.JPG" style="width:100%">
@@ -69,7 +84,7 @@
             <p class="price">$12</p>
             <p>Strawberries are cool</p>
             <p><button class="snipcart-add-item" data-item-id="2" data-item-name="product2" data-item-price="12.00"
-                    data-item-weight="0" data-item-url="/" data-item-description="Strawberries" data-item-custom1-name="Special comments"
+                    data-item-weight="0" data-item-url="/" data-item-description="Strawberries" data-item-custom1-name="Special Requests"
                     data-item-custom1-type="textarea">
                     Add to Cart
                 </button></p>
@@ -81,7 +96,8 @@
             <p class="price">$12</p>
             <p>Strawberries are cool</p>
             <p><button class="snipcart-add-item" data-item-id="3" data-item-name="product3" data-item-price="12.00"
-                    data-item-weight="0" data-item-url="/" data-item-description="Strawberries">
+                    data-item-weight="0" data-item-url="/" data-item-description="Strawberries" data-item-custom1-name="Special Requests"
+                    data-item-custom1-type="textarea">
                     Add to Cart
                 </button></p>
         </div>
@@ -92,30 +108,14 @@
             <p class="price">$12</p>
             <p>Strawberries are cool</p>
             <p><button class="snipcart-add-item" data-item-id="4" data-item-name="product4" data-item-price="12.00"
-                    data-item-weight="0" data-item-url="/" data-item-description="Strawberries">
+                    data-item-weight="0" data-item-url="/" data-item-description="Strawberries" data-item-custom1-name="Special Requests"
+                    data-item-custom1-type="textarea">
                     Add to Cart
                 </button></p>
         </div>
 
 
     </div>
-
-    <script>
-        window.onscroll = function () {
-            myFunction()
-        };
-
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
-
-        function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-            } else {
-                navbar.classList.remove("sticky");
-            }
-        }
-    </script>
 </body>
 
 </html>
