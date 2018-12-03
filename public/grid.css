@@ -87,6 +87,7 @@ nav {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    text-decoration:none;
     height: 4vh;
 }
 
