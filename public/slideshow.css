@@ -13,7 +13,7 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
-  .hide{
+  .hide{/*all pics but first in the beginning*/
     display:none;
   }
   
@@ -38,7 +38,8 @@
     right: 0;
     border-radius: 3px 0 0 3px;
   }
-  /*
+  
+/*
   .prev {
     left:0;
     border-radius: 3px 0 0 3px;
