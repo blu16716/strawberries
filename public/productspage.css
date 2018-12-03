@@ -13,14 +13,16 @@ nav {
     background: white;
 }
 
+
 @media screen and (max-width: 900px) {
     nav {
         grid-template-columns: 100%;
         grid-template-rows: auto;
         grid-gap: 1em;
+        margin-left: calc(100vw - 100%);
+        margin-right: 0;
     }
 }
-
 
 .logo {
     grid-column-start: 3;
@@ -267,8 +269,9 @@ button:hover {
 }
 .home-page-card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: auto;
     max-width: 350px;
-    margin:auto;
+    height: auto;
     text-align: center;
     font-family: 'Arimo', sans-serif;
 }
