@@ -99,7 +99,7 @@ nav {
 .snipcart-checkout{
     grid-column-start: 7;
     float: center;
-    height: 4vh;
+    height: 6vh;
 }
 .snipcart-checkout:hover {
     opacity: 0.5;
