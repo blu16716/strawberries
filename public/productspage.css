@@ -4,7 +4,7 @@
 
 nav {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: 1.1fr 1.2fr 1.3fr 1.2fr 0.7fr 0.6fr 0.7fr;
     grid-auto-rows: auto;
     grid-gap: 1em;
     align-items: center;
@@ -93,8 +93,8 @@ nav {
 }
 
 .snipcart-checkout{
-    grid-column-start: 6;
-    float: right;
+    grid-column-start: 7;
+    float: center;
     height: 4vh;
 }
 .snipcart-checkout:hover {
@@ -284,4 +284,17 @@ button:hover {
 
   .card button:hover {
     opacity: 0.7;
+  }
+
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
   }
