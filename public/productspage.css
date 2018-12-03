@@ -276,7 +276,6 @@ button:hover {
 
   .card button {
     border: none;
-    outline: 0;
     padding: 12px;
     color: white;
     background-color: #000;
