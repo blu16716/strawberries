@@ -81,7 +81,6 @@ nav {
 
 .instagram-logo {
     grid-column-start: 6;
-    
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -119,14 +118,14 @@ nav {
 .box5{
     grid-column-start: 2;
     grid-column-end: 4;
-    grid-row-start: 9;
-    grid-row-end: 13;
+    grid-row-start: 7;
+    grid-row-end: 10;
 }
 .a {
     grid-column-start: 2;
     grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
 }
 
 .b {
@@ -147,8 +146,8 @@ nav {
 .c {
     grid-column-start: 5;
     grid-column-end: 7;
-    grid-row-start: 2;
-    grid-row-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
 
 }
 
@@ -170,8 +169,8 @@ nav {
     font-family: 'Arimo', sans-serif;
     grid-column-start: 2;
     grid-column-end: 4;
-    grid-row-start: 6;
-    grid-row-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 7;
 
 
 }
@@ -193,8 +192,8 @@ nav {
     background-repeat: no-repeat;
     grid-column-start: 5;
     grid-column-end: 7;
-    grid-row-start: 6;
-    grid-row-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 7;
 
 }
 
