@@ -3,17 +3,23 @@
 
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="MTJlZWZmZDktMzZiMS00MDZlLWFhNzQtNDBkY2ZiMjFmZWU3NjM2NzkwODE2NjcyMzYwMTQ1" id="snipcart"></script>
+  <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="MTJlZWZmZDktMzZiMS00MDZlLWFhNzQtNDBkY2ZiMjFmZWU3NjM2NzkwODE2NjcyMzYwMTQ1"
+    id="snipcart"></script>
   <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="productspage.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="M&K Fresas Website">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="cart.js"></script>
+  <a href="https://icons8.com">Icon pack by Icons8</a>
   <title>M&KFresas</title>
 
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="cart.js"></script>
 </head>
+
+
+
+
 
 <header>
   <nav class="container">
@@ -30,93 +36,67 @@
         class="navLinks">Contact Us</a>
     </div>
     <div class="4">
-      <a href="https://www.instagram.com/mkfresas/" class="navLinks">Instagram</a>
-    </div>
-
-
-  </nav>
-
-  <div id="cart" class="cart">
-    <!-- cart item -->
-
-    <div class="cart-item d-flex justify-content-between">
-      <button id='cart-exit' class="cart-exit">exit</button>
-      <div class="item-text">
-        <p id="cart-item-title">cart item</p>
-        <span>$</span>
-        <span id="cart-item-price" class="cart-item-price">10.99</span>
-      </div>
-      <button id='cart-item-remove' class="cart-item-remove">remove</button>
-    </div>
-
-    <div class="cart-item d-flex justify-content-between">
-
-      <div class="cart-item-text">
-
-        <p id="cart-item-title justify-content-between">cart item</p>
-        <span>$</span>
-        <span id="cart-item-price" class="cart-item-price" class="mb-0">10.99</span>
-      </div>
-      <button id='cart-item-remove' class="cart-item-remove">remove</button>
+      <a class="navLinks instagram-logo" href="https://www.instagram.com/mkfresas/" target="_blank">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANmSURBVGhD7dpJyI1RHMfx10yUWcRCWdgQEfYoCkVJpgUZSmwkomShTAsUybSUIVFiYVgoKwvKsJFxoyxMmcsQvr96T93efue5z7n3vPfexfurz+ae8zzvPe7znPN/zqOtK11pfrphOvbhLl7jF/5l8gVPcA3rMRLZMxcP4L5AZ/mNkxiFujMAl+D+UKN8w3LUnNF4BHfyRvuLPUhOfzyGO2kzbUNSLsOdqNn+QPdrqcyBO0mreI5eKIym2IdwJ2iU7+azjjaiMDPgDmyUdeiOcdC/vOsjWgoKsxfuwEbo+OXWwvULxiIardjuoHq8R5nL5QX0a4RshesXrEI0KjvcQSnuYwvGozdCBmI2juID3LFaySdiKT62fxazC9HUUzs9wyJUpgdUYmgQlRmE/VAZ4s5VxnFE4w4o4yYGQ9GX3I570Lwf+nzCRSxAiH6h2K9TzVlE4w6o5hZ6QtEl8Q6uX6XbGANlEsrcQx1lHYimyHDZ7IRqItfPeQPdD8piuD5Fsg4k3BPLkDKIQDPVUCg34PrEZBuIZidFv0iZyynmCJQpcO0x2QaiKVbZAddelmbKEVA087k+TraBaJ1QNDu59hRroByGa3eyDUSLndaJyim2ViegqBh07U6WgbyFog0C157qChRNHq7dyTKQH1B0o7v2VBegrIBrd7JdWmH9+AzXnuIAlGqFYqVsA1F5oajscO0pZkFJOVe2gaiKVebBtZf1Cnp07YOv7Z+VkW0gKvZUICp34PqUofpM0dOha4/JNhAJ17YKQNVOrk+R01C0/ZR6fNaBaA2ZCWUCXsL1czQIrUXa8DjX/lmKrAMRXWKToQyB7p2fcH1F90S4nDSI3XD9qsk+ENH+7BKEqHZS2aGnuKs4Dz0RanYKzy7aV67llwjOIBpt7buDyrqOaShKX+jGruWeqnQQ0TyFOyiVqthD2ISFWAktdlonUqbYIpsRjS4Dd1Armo9oUufyZtEzfj9Eo2q2ni2aRtHbgqo5BXdwq9DewFRUjTbUNJ26k7QCTdmlo+eCWnZFOpsqh+FIil5Du5M1i3Yqwz5YcvTOLsczeb1U1tQ8iBC9iit66dKZdHnrnhiGLNGDzwY06j8NaJ3Q+/1Ss1Ot0Zui1dD7iWPQO40cVNKo7NBufeFi15WuNCxtbf8Bp01RYjO59oUAAAAASUVORK5CYII">
       </a>
+
     </div>
-
-    <div class="cart-total-container justify-content-around">
-      <h5>total</h5>
-      <h5>$ <strong id="cart-total" class="font-weight-bold">10.00</strong> </h5>
+    <div class="5">
+      <img href="#" class="navLinks snipcart-checkout" src="https://img.icons8.com/windows/50/000000/shopping-cart.png">
     </div>
-    <!--end cart total -->
-
-    <!-- cart buttons -->
-    <div class="cart-buttons-container d-flex justify-content-between">
-      <button id="clear-cart" class="btn">clear cart</button>
-      <button class="btn">checkout</button>
-    </div>
-
-
-
+  </nav>
 </header>
+
 
 <body>
   <div class="wrapper">
-    <div id="cart-info" class="cart-info">
-      <span class="cart-info_icon mr-lg-3"><i class="fas fa-shopping-cart"></i></span>
-      <p class="button-styling">Cart</p>
-    </div>
-    <div class="box a" class="img-container" class = "birthday_1"> </div>
-    <div class="box b" class="store-item"> Product 1
-      <button id="addTo">add to cart</button>
-      <i class="fas fa-shopping-cart"></i>
-      <h5 class="store-item-value">$ <strong id="store-item-price">5</strong></h5>
-    </div>
-    <div class="box c" class="img-container" class = "birthday_2"></div>
-    <div class="box d" class="store-item">product 2
-      <button id="addTo">add to cart</button>
-      <i class="fas fa-shopping-cart"></i>
-      <h5 class="store-item-value">$ <strong id="store-item-price">5</strong></h5>
+
+    <div class="card a">
+      <img src="https://puu.sh/BSvkA/69a4d7d251.JPG" style="width:100%">
+      <h1>Product 1</h1>
+      <p class="price">$12</p>
+      <p>Strawberries are cool</p>
+      <p><button class="snipcart-add-item" data-item-id="1" data-item-name="product1" data-item-price="12.00"
+          data-item-weight="0" data-item-url="/" data-item-description="Strawberries">
+          Add to Cart
+        </button></p>
     </div>
 
-    <div class="box e" class="img-container">
-    </div>
-    <div class="box f" class="store-item" class = "birthday_3">product 3
-      <button id="addTo">add to cart</button>
-      <i class="fas fa-shopping-cart"></i>
-      <h5 class="store-item-value">$ <strong id="store-item-price">5</strong></h5>
+    <div class="card c">
+      <img src="https://puu.sh/BSvkA/69a4d7d251.JPG" style="width:100%">
+      <h1>Product 2</h1>
+      <p class="price">$12</p>
+      <p>Strawberries are cool</p>
+      <p><button class="snipcart-add-item" data-item-id="2" data-item-name="product2" data-item-price="12.00"
+          data-item-weight="0" data-item-url="/" data-item-description="Strawberries">
+          Add to Cart
+        </button></p>
     </div>
 
-
-    <div class="box g"></div>
-    <div class="box h" class="store-item"  class = "birthday_4">product 4
-      <button id="addTo">add to cart</button>
-      <i class="fas fa-shopping-cart"></i>
-      <h5 class="store-item-value">$<strong id="store-item-price">5</strong></h5>
+    <div class="card e">
+      <img src="https://puu.sh/BSvkA/69a4d7d251.JPG" style="width:100%">
+      <h1>Product 3</h1>
+      <p class="price">$12</p>
+      <p>Strawberries are cool</p>
+      <p><button class="snipcart-add-item" data-item-id="3" data-item-name="product3" data-item-price="12.00"
+          data-item-weight="0" data-item-url="/" data-item-description="Strawberries">
+          Add to Cart
+        </button></p>
     </div>
+
+    <div class="card g">
+      <img src="https://puu.sh/BSvkA/69a4d7d251.JPG" style="width:100%">
+      <h1>Product 4</h1>
+      <p class="price">$12</p>
+      <p>Strawberries are cool</p>
+      <p><button class="snipcart-add-item" data-item-id="4" data-item-name="product4" data-item-price="12.00"
+          data-item-weight="0" data-item-url="/" data-item-description="Strawberries">
+          Add to Cart
+        </button></p>
+    </div>
+
 
   </div>
-
-
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="cart.js"></script>
 </body>
 
 </html>
