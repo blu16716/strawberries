@@ -13,14 +13,16 @@ nav {
     background: white;
 }
 
+
 @media screen and (max-width: 900px) {
     nav {
         grid-template-columns: 100%;
         grid-template-rows: auto;
         grid-gap: 1em;
+        margin-left: calc(100vw - 100%);
+        margin-right: 0;
     }
 }
-
 
 .logo {
     grid-column-start: 3;
@@ -48,9 +50,9 @@ nav {
 }
 
 .boxLinks {
-    font-family: 'Pacifico', sans-serif;
-    text-decoration: none;
-    color: black;
+    font-family: 'Arimo', sans-serif;
+    text-decoration: none !important;
+    color: #000 !important;
 }
 
 .boxLinks:hover {
@@ -259,14 +261,26 @@ button:hover {
     color: gray;
     border-color: grey;
 }
-
-.card {
+.home-page-card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    max-height: 435px;
-    margin: auto;
+    width: auto;
+    max-width: 350px;
+    height: auto;
     text-align: center;
     font-family: 'Arimo', sans-serif;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin:auto;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+  }
+
+  .cardLink{
+    text-decoration: none !important;
+    color: #000 !important;
+
   }
 
   .price {
