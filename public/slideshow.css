@@ -4,15 +4,17 @@
 .slideshow-container {
     max-width: 1000px;
     position: relative;
-    margin: auto;
+    margin: auto; 
   }
   
-  /* Hide the images by default */
   .mySlides {
-   /* display:none;*/
+
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+  }
+  .hide{
+    display:none;
   }
   
   /* Next & previous buttons */
@@ -36,10 +38,11 @@
     right: 0;
     border-radius: 3px 0 0 3px;
   }
+  /*
   .prev {
     left:0;
     border-radius: 3px 0 0 3px;
-  }
+  }*/
   
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
