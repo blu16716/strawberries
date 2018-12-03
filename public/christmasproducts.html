@@ -44,6 +44,22 @@
     <div class="5">
       <img href="#" class="navLinks snipcart-checkout" src="https://img.icons8.com/windows/50/000000/shopping-cart.png">
     </div>
+    <script>
+      window.onscroll = function () {
+        myFunction()
+      };
+
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
   </nav>
 </header>
 
@@ -98,22 +114,6 @@
 
 
   </div>
-  <script>
-    window.onscroll = function () {
-      myFunction()
-    };
-
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
-  </script>
 
 </body>
 
