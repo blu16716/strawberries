@@ -81,11 +81,28 @@ nav {
 
 .instagram-logo {
     grid-column-start: 6;
-    background-image: url("https://puu.sh/BTBdu/e8cdc4ac57.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
     height: 4vh;
+}
+
+.instagram-logo:hover{
+    opacity: 0.5;
+  transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+}
+
+.snipcart-checkout{
+    grid-column-start: 6;
+    float: right;
+    height: 4vh;
+}
+.snipcart-checkout:hover {
+    opacity: 0.5;
+  transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
 }
 
 
@@ -99,10 +116,6 @@ nav {
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 5;
-    background-image: url("https://puu.sh/BSvkA/69a4d7d251.JPG");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .b {
@@ -125,10 +138,6 @@ nav {
     grid-column-end: 7;
     grid-row-start: 2;
     grid-row-end: 5;
-    background-image: url("https://puu.sh/BSvkA/69a4d7d251.JPG");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
 
 }
 
@@ -152,10 +161,6 @@ nav {
     grid-column-end: 4;
     grid-row-start: 6;
     grid-row-end: 9;
-    background-image: url("https://puu.sh/BSw4b/d8cc5048ef.JPG");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 
 
 }
@@ -179,9 +184,6 @@ nav {
     grid-column-end: 7;
     grid-row-start: 6;
     grid-row-end: 9;
-    background-image: url("https://puu.sh/BSw5S/83fc5c150d.JPG");
-    background-position: center;
-    background-size: contain;
 
 }
 
@@ -237,8 +239,6 @@ footer {
 
 
 button {
-    margin-bottom: 5px;
-    grid-column: 4;
     width: 30%;
     height: auto;
     float: center;
@@ -247,6 +247,7 @@ button {
     background-color: white;
     font-family: 'Arimo', sans-serif;
 
+
 }
 
 button:hover {
@@ -254,15 +255,33 @@ button:hover {
     border-color: grey;
 }
 
-.snipcart-checkout{
-    grid-column-start: 7;
-    float: right;
-    height: 4vh;
-}
-.snipcart-checkout:hover {
-    opacity: 0.5;
-  transition: opacity .2s ease-out;
-  -moz-transition: opacity .2s ease-out;
-  -webkit-transition: opacity .2s ease-out;
-  -o-transition: opacity .2s ease-out;
-}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+  }
+
+  .price {
+    color: black;
+    font-size: 22px;
+    font-family: 'Arimo', sans-serif;
+  }
+
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+  }
+
+  .card button:hover {
+    opacity: 0.7;
+  }
