@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    padding-bottom: 60px;/*must be same as footer*/
 }
 
 nav {
@@ -22,6 +23,50 @@ nav {
         grid-gap: 1em;
     }
 }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+  }
+
+  .price {
+    color: black;
+    font-size: 22px;
+    font-family: 'Arimo', sans-serif;
+  }
+
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+  }
+
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
 
 
 .logo {
@@ -87,7 +132,7 @@ nav {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    text-decoration:none;
+    text-decoration: none;
     height: 4vh;
 }
 
@@ -165,8 +210,7 @@ nav {
     color: #000 !important;
 }
 
-.christmas-text a:hover
-.christmas-text a:active {
+.christmas-text a:hover .christmas-text a:active {
     text-decoration: none;
     color: #000 !important;
 }
@@ -205,8 +249,7 @@ nav {
     color: #000 !important;
 }
 
-.happy-birthday-text a:hover
-.happy-birthday-text a:active {
+.happy-birthday-text a:hover .happy-birthday-text a:active {
     text-decoration: none;
     color: #000 !important;
 }
@@ -239,6 +282,7 @@ nav {
     text-decoration: none;
     color: #000 !important;
 }
+
 .custom-text a:focus {
     text-decoration: none;
     color: #000 !important;
@@ -254,53 +298,53 @@ nav {
     text-decoration: none !important;
     color: #000 !important;
 }
+
 .box.christmas-text.boxLinks a {
     text-decoration: none !important;
     color: #000 !important;
 }
+
 .box.happy-birthday-text.boxLinks a {
     text-decoration: none !important;
     color: #000 !important;
 }
+
 .box.custom-text.boxLinks a {
     text-decoration: none !important;
     color: #000 !important;
 }
-footer {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: auto;
-    grid-gap: 1em;
-    align-items: center;
-    text-align: center;
-    border-bottom: 4px solid black;
-    background: white;
-}
+
+/*footer styling*/
 .footer {
-    position: fixed;
-    left: 0;
     bottom: 0;
+    position: relative;
     width: 100%;
-    background-color: black;
-    opacity: .2;
-    color: white;
-    text-align: center;
+    background: black;
+    height: 60px;
+    margin-top: 60px;
+    clear: both;
 }
 
-.footerLinks {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1em;
-    text-decoration: none;
-    color: black;
+.footer-logo {
+    size: 50%;
 }
 
-.footerLinks:hover {
-    color: gray;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-    padding: 1em 1em;
+.footer-left {
+    float: left;
+    width: 25%;
 }
 
+.footer-center {
+    margin-left: -15px;
+    margin-right: -15px;
+
+
+}
+
+.footer-right {
+    float: right;
+    width: 25%;
+}
 
 /* cart styling */
 .cart-info {
