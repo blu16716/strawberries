@@ -110,22 +110,14 @@ nav {
   -o-transition: opacity .2s ease-out;
 }
 
-.text{
-    text-align: center;
-    bottom: 0;
-    font-size: 2em;
-    font-weight: bold;
-    font-family: "Arimo", sans-serif;
-    text-decoration: none !important;
-    color: #000 !important;
-}
+
 .rotate{
     transform: rotate(90deg);
 }
 
 .text{
     text-align: center;
-    bottom: 0;
+    bottom: 0 !important;
     font-size: 2em;
     font-weight: bold;
     font-family: "Arimo", sans-serif;
