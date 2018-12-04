@@ -7,7 +7,7 @@ body {
 
 nav {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: 1.1fr 1.2fr 1.3fr 1.2fr 0.7fr 0.6fr 0.7fr;
     grid-auto-rows: auto;
     grid-gap: 1em;
     align-items: center;
@@ -21,6 +21,8 @@ nav {
         grid-template-columns: 100%;
         grid-template-rows: auto;
         grid-gap: 1em;
+        margin-left: calc(100vw - 100%);
+        margin-right: 0;
     }
 }
 
@@ -133,7 +135,7 @@ nav {
     background-size: contain;
     background-repeat: no-repeat;
     text-decoration: none;
-    height: 4vh;
+    height: 3vh;
 }
 
 .a {
