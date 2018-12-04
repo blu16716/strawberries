@@ -19,12 +19,12 @@
           <a href="homepage.html" class="navLinks">Home</a>
         </div>
         <div class="2">
-          <a href="#" class="navLinks">About Me</a>
+          <a href="aboutpage.html" class="navLinks">About Me</a>
         </div>
         <div class="logo">
         </div>
         <div class="3">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScOUdVlYH8snxrEcMaRF0-iCewVIguQXpGAKcR6LD9vGxumrw/viewform?usp=sf_link"
+          <a href="contactus.html"
             class="navLinks">Contact Us</a>
         </div>
         <div class="4">
@@ -34,30 +34,46 @@
     
         </div>
         <div class="5">
-          <img href="#" class="navLinks snipcart-checkout" src="https://img.icons8.com/windows/50/000000/shopping-cart.png">
+          <img href="checkout.html" class="navLinks snipcart-checkout" src="https://img.icons8.com/windows/50/000000/shopping-cart.png">
         </div>
       </nav>
+      <script>
+        window.onscroll = function () {
+          myFunction()
+        };
+  
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+  
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+      </script>
 </header>
 
 <body>
   <div class="wrapper">
-    <a href="productpage.html" class="home-page-card cardLink a">
+    <a href="holidaypage.html" class="home-page-card cardLink a">
       <img src="https://puu.sh/BSvkA/69a4d7d251.JPG" style="width:100%">
       <h1>Holidays</h1>
       <p>'Tis the season!</p>
     </a>
  
 
-    <a href="#" class="home-page-card cardLink c">
+    <a href="original.html" class="home-page-card cardLink c">
       <img src="https://puu.sh/CbUwi/b1b9d90c06.JPG" style="width:100%">
-      <h1>Congrats!</h1>
-      <p>College Grad? Newborn? We got you covered!</p>
+      <h1>Original</h1>
+      <p>Simple and delicious</p>
     </a>
 
-    <a href="#" class="home-page-card cardLink e">
+    <a href="towers.html" class="home-page-card cardLink e">
         <img src="https://puu.sh/CbUAG/d9807b810d.JPG" style="width:100%">
       <h1>Towers and Boutiques</h1>
-      <p>Send someone an edible tabletop decoration!</p>
+      <p>Send someone an edible tabletop decoration! Three dozen per tower.</p>
     </a>
 
     <a href="#" class="home-page-card cardLink g">

@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="grid.css">
   <link rel="stylesheet" type="text/css" href="about.css">
+  <link rel="stylesheet" type="text/css" href="contactus.css">
   <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet"> 
   <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-auth.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="M&K Fresas Website">
@@ -44,10 +44,37 @@
 <body>
     <h1 class=center>Contact Us</h1>
     <div class = "about-pic"></div>
-  <form method="POST" action="https://formspree.io/avfarooq@gmail.com">
-  <input type="email" name="email" placeholder="Your email">
-  <textarea name="message" placeholder="Your Message"></textarea>
-  <button type="submit">Send Email</button>
-</form>
+ <div class="container">
+  <div style="text-align:center">
+      <p class="a text">Any Comments, Questions, Requests, please let us know!</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="https://puu.sh/CbXDK/5177526956.JPG" style="width:100%">
+    </div>
+    <div class="column">
+      <form method= "POST" action="https://formspree.io/avfarooq@gmail.com">
+        <label class="text"for="feedback">Feedback Type</label>
+        <select id="feedback" name="feedback">
+          <option class="text"value="comments">Comments</option>
+          <option class="text"value="questions">Questions</option>
+          <option class="text"value="featurerequest">Feature Reports</option>
+          <option class="text"value="other">Other</option>
+        </select>
+        <label class="text"for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label class="text"for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label class="text"for="email">Email Address</label>
+        <input type="text" id="email" name="emailaddress" placeholder="Your email address..">
+        <label class="text"for="Comment">Comment</label>
+        <textarea class="text"id="Comment" name="Comment" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+
 
 </body>
