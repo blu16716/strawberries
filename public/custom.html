@@ -8,9 +8,10 @@
     <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="productspage.css">
+    <link rel="stylesheet" type="text/css" href="slideshow.css">
+    <script src="slideshow.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="M&K Fresas Website">
-    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="cart.js"></script>
     <title>M&KFresas</title>
 
@@ -48,57 +49,38 @@
     </nav>
 </header>
 
+</br>
 
 <body>
-    <div class="wrapper">
-
-        <div class="card a">
-            <img src="https://puu.sh/BSvkA/69a4d7d251.JPG" style="width:100%">
-            <h1>Product 1</h1>
-            <p class="price">$12</p>
-            <p>Strawberries are cool</p>
-            <p><button class="snipcart-add-item" data-item-id="1" data-item-name="product1" data-item-price="12.00"
-                    data-item-weight="0" data-item-url="/" data-item-description="Strawberries">
-                    Add to Cart
-                </button></p>
-        </div>
-
-        <div class="card c">
-            <img src="https://puu.sh/BSvkA/69a4d7d251.JPG" style="width:100%">
-            <h1>Product 2</h1>
-            <p class="price">$12</p>
-            <p>Strawberries are cool</p>
-            <p><button class="snipcart-add-item" data-item-id="2" data-item-name="product2" data-item-price="12.00"
-                    data-item-weight="0" data-item-url="/" data-item-description="Strawberries" data-item-custom1-name="Special comments"
-                    data-item-custom1-type="textarea">
-                    Add to Cart
-                </button></p>
-        </div>
-
-        <div class="card e">
-            <img src="https://puu.sh/BSvkA/69a4d7d251.JPG" style="width:100%">
-            <h1>Product 3</h1>
-            <p class="price">$12</p>
-            <p>Strawberries are cool</p>
-            <p><button class="snipcart-add-item" data-item-id="3" data-item-name="product3" data-item-price="12.00"
-                    data-item-weight="0" data-item-url="/" data-item-description="Strawberries">
-                    Add to Cart
-                </button></p>
-        </div>
-
-        <div class="card g">
-            <img src="https://puu.sh/BSvkA/69a4d7d251.JPG" style="width:100%">
-            <h1>Product 4</h1>
-            <p class="price">$12</p>
-            <p>Strawberries are cool</p>
-            <p><button class="snipcart-add-item" data-item-id="4" data-item-name="product4" data-item-price="12.00"
-                    data-item-weight="0" data-item-url="/" data-item-description="Strawberries">
-                    Add to Cart
-                </button></p>
-        </div>
-
-
+    <!-- Slideshow container -->
+<div class="wrapper">
+    <div class="center">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="https://puu.sh/CbUDo/40c830e34d.JPG" style="width:100%">
     </div>
+  
+    <div class="mySlides fade hide">
+      <img src="https://puu.sh/Cc3Kf/b8ccdd5745.JPG" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade hide">
+      <img src="https://puu.sh/Cc3L9/2e0adbb7a7.JPG" style="width:100%">
+    </div>
+    <div class="mySlides fade hide">
+        <img src="https://puu.sh/Cc4dM/6c11b2ee11.JPG" style="width:100%">
+    </div>
+    <div class="mySlides fade hide">
+        <img src="https://puu.sh/Cc4b0/781c05123d.JPG" style="width:100%">
+    </div>
+    </div>
+    <a class="text" href="contactus.html">Contact us for orders!</a>
+</div>
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
 
     <script>
         window.onscroll = function () {
