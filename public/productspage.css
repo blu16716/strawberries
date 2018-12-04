@@ -112,7 +112,9 @@ nav {
   -o-transition: opacity .2s ease-out;
 }
 
-
+.rotate{
+    transform: rotate(90deg);
+}
 .products-grid {
     display: grid;
     grid-template-columns: 12;
