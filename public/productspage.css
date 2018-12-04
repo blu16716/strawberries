@@ -113,6 +113,16 @@ nav {
 .rotate{
     transform: rotate(90deg);
 }
+
+.text{
+    text-align: center;
+    bottom: 0;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: "Arimo", sans-serif;
+    text-decoration: none !important;
+    color: #000 !important;
+}
 .products-grid {
     display: grid;
     grid-template-columns: 12;
