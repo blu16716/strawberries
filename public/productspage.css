@@ -13,7 +13,6 @@ nav {
     background: white;
 }
 
-
 @media screen and (max-width: 900px) {
     nav {
         grid-template-columns: 100%;
@@ -33,7 +32,6 @@ nav {
     background-repeat: no-repeat;
     height: 10vh;
 }
-
 
 .navLinks {
     font-family: 'Pacifico', sans-serif;
@@ -257,6 +255,18 @@ button {
 
 }
 
+.card .a .custom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    float: center;
+    width: auto;
+}
+
 button:hover {
     color: gray;
     border-color: grey;
@@ -310,8 +320,6 @@ button:hover {
     position: fixed;
     top: 0;
     width: 100%;
-
-    
   }
   
   .sticky + .content {
